@@ -1,11 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 const Galleries = () => {
-  return (
-    <>
-    
-    </>
-  )
-}
+  return <></>;
+};
 
-export default Galleries
+export default Galleries;
