@@ -1,10 +1,13 @@
 import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 const App = () => {
   return (
-    <div className="App">
-     <h1>React Advanced.</h1>
-    </div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<App />}></Route>
+        </Routes>
+      </BrowserRouter>
   );
 };
 
