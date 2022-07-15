@@ -1,11 +1,13 @@
 import React from 'react';
+import { Button } from '../Button';
 
 const Header = () => {
   return (
-    <>
-    <div>Header</div>
-    <h1>hjghjgjhgjh</h1>
-    </>
+    <header>
+      <h1>Soy el Heaader</h1>
+      <input type="text" />
+      <Button />
+    </header>
   );
 };
 export default Header;
