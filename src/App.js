@@ -47,7 +47,7 @@ const App = () => {
   return (
       <BrowserRouter>
       {
-        isLoading && <p>Loading</p>
+        isLoading && <p>LOADING...</p>
       }
       {
         characters?.map(character => <p key={character.id}>{character.type}</p>)
