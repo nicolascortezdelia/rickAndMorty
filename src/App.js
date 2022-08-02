@@ -3,6 +3,7 @@ import axios from 'axios';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import { Home } from './pages/Home';
+import { Card } from './components/Card/Card';
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(false);
@@ -54,6 +55,7 @@ const App = () => {
       <button onClick={getCharacter} disabled={isLoading} > Click Me!</button>
         <Routes>
           <Route path="/" element={<Home />}/>
+          <Route path="/card" element={<Card />}/>
         </Routes>
       </BrowserRouter>
   );
